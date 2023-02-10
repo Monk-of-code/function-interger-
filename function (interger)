@@ -1,0 +1,11 @@
+# functions
+#include <stdio.h>
+int myFunction(int x,int y,int z){
+ return x+y-z;
+
+}
+int main()
+{
+    printf("%d",myFunction(25,37,19));
+    return 0;
+}
